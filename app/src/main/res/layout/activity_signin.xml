@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login_bk"
+    tools:context=".signin">
+
+
+
+
+    <TextView
+        android:layout_marginTop="300dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_dark_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pleas Sign In!!"
+        android:layout_gravity="center"></TextView>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        app:boxStrokeColor="@color/yellow"
+        android:layout_gravity="center"
+        app:startIconDrawable="@drawable/baseline_lock_24"
+        android:layout_margin="20dp"
+        app:hintTextColor="@color/yellow">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:hintTextColor="@color/yellow"
+            android:id="@+id/userNameEdittext"
+            android:textStyle="normal"
+            android:hint="Enter your ID:-" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/signIN"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#01FF56"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="SIGN IN" />
+
+</LinearLayout>

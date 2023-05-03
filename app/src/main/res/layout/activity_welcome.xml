@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/signup"
+    tools:context=".WelcomeActivity">
+
+
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_margin="30dp"
+        android:layout_width="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_dark_background"
+        android:layout_height="wrap_content"
+        android:text="Wecome" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        android:text="There are some detail from Database" />
+
+    <TextView
+        android:id="@+id/btnMail"
+        android:layout_width="match_parent"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:text="Mail"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:backgroundTint="@color/white"
+        android:id="@+id/btnUserId"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:textSize="30dp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:text="User Id" />
+
+</LinearLayout>
